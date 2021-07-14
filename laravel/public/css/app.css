@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.titlehome {
+  padding-left: 100px;
+  font-size: 2.5rem;
+  padding-top: 70px;
+  color: yellow;
+}
+
+.homep {
+  font-size: 20px;
+  padding-left: 100px;
+  padding-top: 30px;
+  color: white;
+}
+
+.homep a {
+  color: yellow;
+}
+
+header {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid yellow;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+}
+
+main .maincont {
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+main .maincont .card {
+  width: 270px;
+  height: 450px;
+  border: 3px solid white;
+  margin-right: 100px;
+  margin-bottom: 70px;
+}
+
+main .maincont .card img {
+  width: 100%;
+  height: 250px;
+}
+
+main .maincont .card .row {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+
+main .maincont .card .row span {
+  color: yellow;
+  font-size: 15px;
+}
+
+main .maincont .card .row p {
+  padding-left: 10px;
+  color: white;
+}
+

@@ -1,0 +1,45 @@
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+
+    .maincont{
+        padding-top: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .card{
+            width: 270px;
+            height: 450px;
+            border: 3px solid white;
+            margin-right: 100px;
+            margin-bottom: 70px;
+
+            img{
+                width: 100%;
+                height: 250px;
+            }
+
+            .row{
+                display: flex;
+                flex-direction: row;
+                padding: 12px;
+
+                span{
+                    color: yellow;
+                    font-size: 15px;
+                }
+
+                p{
+                    padding-left: 10px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
