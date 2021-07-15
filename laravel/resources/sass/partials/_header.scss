@@ -1,9 +1,10 @@
-header{
+.sectionheader{
     height: 150px;
     width: 100%;
     background-color: black;
     color: yellow;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-bottom: 3px solid yellow;
@@ -11,5 +12,21 @@ header{
     h1{
         font-size: 3rem;
         font-weight: 600;
+    }
+
+    .divlink{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        a{
+            font-size: 18px;
+            text-decoration: none;
+            color: yellow;
+            padding: 10px;
+        }
     }
 }

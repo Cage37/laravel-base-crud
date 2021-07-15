@@ -22,29 +22,46 @@
   color: yellow;
 }
 
-header {
+.sectionheader {
   height: 150px;
   width: 100%;
   background-color: black;
   color: yellow;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-bottom: 3px solid yellow;
 }
 
-header h1 {
+.sectionheader h1 {
   font-size: 3rem;
   font-weight: 600;
 }
 
-main {
+.sectionheader .divlink {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionheader .divlink a {
+  font-size: 18px;
+  text-decoration: none;
+  color: yellow;
+  padding: 10px;
+}
+
+.sectionmain {
   width: 100%;
   min-height: 100vh;
   background-color: black;
 }
 
-main .maincontcomic {
+.sectionmain .maincontcomic {
   padding-top: 100px;
   padding-left: 150px;
   padding-right: 150px;
@@ -55,37 +72,32 @@ main .maincontcomic {
   justify-content: center;
 }
 
-main .maincontcomic .cardcomic {
+.sectionmain .maincontcomic .cardcomic {
   width: 270px;
-  height: 450px;
+  height: 500px;
   border: 3px solid white;
   margin-right: 100px;
   margin-bottom: 70px;
 }
 
-main .maincontcomic .cardcomic img {
+.sectionmain .maincontcomic .cardcomic img {
   width: 100%;
   height: 250px;
 }
 
-main .maincontcomic .cardcomic .rowcomic {
+.sectionmain .maincontcomic .cardcomic .rowcomic {
   display: flex;
   flex-direction: row;
   padding: 12px;
 }
 
-main .maincontcomic .cardcomic .rowcomic span {
+.sectionmain .maincontcomic .cardcomic .rowcomic span {
   color: yellow;
   font-size: 15px;
 }
 
-main .maincontcomic .cardcomic .rowcomic p {
+.sectionmain .maincontcomic .cardcomic .rowcomic p {
   padding-left: 10px;
   color: white;
-}
-
-.createcontainer {
-  display: flex;
-  align-items: center;
 }
 
