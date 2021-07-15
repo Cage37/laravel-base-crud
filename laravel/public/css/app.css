@@ -44,7 +44,7 @@ main {
   background-color: black;
 }
 
-main .maincont {
+main .maincontcomic {
   padding-top: 100px;
   padding-left: 150px;
   padding-right: 150px;
@@ -55,7 +55,7 @@ main .maincont {
   justify-content: center;
 }
 
-main .maincont .card {
+main .maincontcomic .cardcomic {
   width: 270px;
   height: 450px;
   border: 3px solid white;
@@ -63,24 +63,29 @@ main .maincont .card {
   margin-bottom: 70px;
 }
 
-main .maincont .card img {
+main .maincontcomic .cardcomic img {
   width: 100%;
   height: 250px;
 }
 
-main .maincont .card .row {
+main .maincontcomic .cardcomic .rowcomic {
   display: flex;
   flex-direction: row;
   padding: 12px;
 }
 
-main .maincont .card .row span {
+main .maincontcomic .cardcomic .rowcomic span {
   color: yellow;
   font-size: 15px;
 }
 
-main .maincont .card .row p {
+main .maincontcomic .cardcomic .rowcomic p {
   padding-left: 10px;
   color: white;
+}
+
+.createcontainer {
+  display: flex;
+  align-items: center;
 }
 
